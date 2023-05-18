@@ -16,6 +16,7 @@ else country !=1 || country !=2
 end
 
 # puts country.inspect
+#"Частина-2"
 
 if (country == "Японія" || country == "США") && age>=21
     puts "Вітаю, переходь до наступного кроку"
@@ -24,4 +25,12 @@ elsif age >= 18
 else
     puts "Перепрошую цей сайт не для вас;("
 end
+
+#Або можна скоротити умову "частина-2"
+
+# if age >= 21 || (age >= 18 && country != 1)
+#     puts "Доступ відкрит"
+# else
+#     puts "Перепрошую цей сайт не для вас;("
+# end
 

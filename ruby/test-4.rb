@@ -10,6 +10,6 @@ if guess == random_number
     puts "Чудово, ти вгадав!!!"
 elsif guess < random_number
     puts "Моє число більше, ніж твій здогад. Спробуй ще;)"
-elsif guess > random_number
+else guess > random_number
     puts "Моє число меньше, ніж твій здогад. Спробуй ще;)"
 end
