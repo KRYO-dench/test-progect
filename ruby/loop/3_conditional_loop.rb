@@ -5,4 +5,6 @@ loop do
     if i == 10
         break
     end
+    puts "next"
 end
+puts "end"
