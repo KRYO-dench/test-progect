@@ -8,5 +8,3 @@ def count_to_zero(number)
 end
 
 count_to_zero(10)
-count_to_zero(20)
-count_to_zero(-3)
