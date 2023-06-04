@@ -4,7 +4,15 @@ puts "Я загадав число от 1 до 10. Спробуй здогада
 
 # puts random_number
 
+iterations = 0 #лічильник спроб вгадування
+
 loop do
+    iterations += 1
+
+    if iterations > 5
+        puts "Перевищена кількість спроб ;("
+        break
+    end
     guess = gets.to_i
     if guess == random_number
         puts "Чудово, ти вгадав!!!"
