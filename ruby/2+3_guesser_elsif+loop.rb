@@ -1,10 +1,10 @@
+random_number = (rand *10).to_i + 1
+
+puts "Я загадав число от 1 до 10. Спробуй здогадатись..."
+
+# puts random_number
+
 loop do
-    random_number = (rand *10).to_i + 1
-
-    puts "Я загадав число от 1 до 10. Спробуй здогадатись..."
-
-    # puts random_number
-
     guess = gets.to_i
     if guess == random_number
         puts "Чудово, ти вгадав!!!"
