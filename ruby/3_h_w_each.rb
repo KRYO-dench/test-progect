@@ -6,7 +6,8 @@
 # або упорядкований масив
 degreeses = (1..10).to_a
 degreeses.each do |degree|
-    puts "#{degree} --> #{degree ** 2}"
+    puts "#{degree} --> #{degree ** 2}" 
+    #інтерполяція: "#{якась змінна}"
 end
 
 puts degreeses.inspect
