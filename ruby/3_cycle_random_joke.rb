@@ -12,6 +12,12 @@ jokes = [
     "Chuck Norris plays Russian roulette with a fully loaded revolver... and wins."
   ]
   
-  random_index = (rand * jokes.length).to_i
-  # от 0 до 10 число
-  puts jokes[random_index]
+  puts jokes.sample #візьме будь-який єлемпнт масиву
+  # ...ще варіант
+    # puts jokes.shuffle.first #перемішає і візьме перший єлемент масиву
+  # ...ще варіант
+  # random_index = (rand * jokes.length).to_i
+  # от 0 до 10 число або 
+  # random_index = rand (0...jokes.length)
+  
+  # puts jokes[random_index]
